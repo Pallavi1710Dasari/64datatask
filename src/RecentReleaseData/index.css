@@ -1,0 +1,19 @@
+.list-items{
+    list-style-type: style circle;
+    margin:2px;
+}
+.list-date{
+    color:rgb(73, 193, 209);
+    font-size: 70%;
+    font-family: roboto;
+}
+.list-head{
+    color:rgb(21, 25, 26);
+    font-size: 90%;
+    font-family: roboto;
+}
+.list-des{
+    color:rgb(50, 63, 66);
+    font-size: 70%;
+    font-family: roboto;
+}

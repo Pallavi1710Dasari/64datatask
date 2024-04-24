@@ -1,0 +1,61 @@
+[
+{"id":"1",
+   "imageSrc":"https://example.com/image1.jpg",
+   "heading":"State of Markets",
+   "description":"The market capitalisation of Indian stocks crossed US$4.5 trillion in January"
+},
+{
+    "id":"2",
+   "imageSrc":"https://example.com/image2.jpg",
+   "heading":"The Central capex Surge",
+   "description":"The last few years have seen a very substanial step up in capital"
+},
+{
+    "id":"3",
+   "imageSrc":"https://example.com/image3.jpg",
+   "heading":"Direct taxes and Business Cycle",
+   "description":"The share of direct taxes in total tax collections of the central government"
+},
+{
+    "id":"4",
+   "imageSrc":"https://example.com/image4.jpg",
+   "heading":"Banking Monitor",
+   "description":"Credit growth has remained broadly stable in weeks at just"
+},
+{
+    "id": "5",
+    "imageSrc": "https://example.com/image2.jpg",
+    "heading": "Tech Innovation Report",
+    "description": "Artificial Intelligence adoption in businesses increased by 40% compared to last year."
+  },
+  {
+    "id": "6",
+    "imageSrc": "https://example.com/image3.jpg",
+    "heading": "Global Energy Trends",
+    "description": "Renewable energy sources accounted for nearly 30% of the world"
+  },
+  {
+    "id": "7",
+    "imageSrc": "https://example.com/image4.jpg",
+    "heading": "Space Exploration Update",
+    "description": "Private space companies launched nearly 50 satellites into orbit last month"
+  },
+  {
+    "id": "8",
+    "imageSrc": "https://example.com/image5.jpg",
+    "heading": "Environmental Report",
+    "description": "Carbon emissions in major cities decreased by nearly 20% due to COVID-19 lockdown measures."
+  },
+  {
+    "id": "9",
+    "imageSrc": "https://example.com/image6.jpg",
+    "heading": "Healthcare Update",
+    "description": "The global vaccination rate reached nearly 60% of the population."
+  },
+  {
+    "id": "10",
+    "imageSrc": "https://example.com/image7.jpg",
+    "heading": "Educational Insights",
+    "description": "Online learning platforms experienced a surge of nearly."
+  }
+]

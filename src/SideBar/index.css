@@ -1,8 +1,7 @@
-.background{
+.sidebar-background{
     background-color: white;
-    box-shadow: 5px 5px 10px 2px rgba(180, 171, 171, 0.8);
+    box-shadow: 5px 5px 5px 2px rgba(180, 171, 171, 0.8);
     height:100vh;
-    width:7vw;
     padding:20px;
     display: flex;
     flex-direction: column;
@@ -14,7 +13,7 @@
     font-weight: bold;
     color: #382e2e;
     margin-top: 10px;
-    margin:10px;
+    margin:5px;
     align-items: center;
   }
   
@@ -32,4 +31,14 @@
     margin-top:40px;
     display: flex;
     flex-direction: column;
+  }
+  .sidebar-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sidebar-description{
+    font-size: 20px;
+    font-family: roboto;
+    color:#302b2b
   }

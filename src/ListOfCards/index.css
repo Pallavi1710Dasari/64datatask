@@ -1,0 +1,32 @@
+.card-list-container{
+    background-color: #f3f0f0;
+    margin:2%;
+    margin-top:5%;
+    padding:1%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(180, 171, 171, 0.8); 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.card-item{
+    padding: 10px; /* Adjust padding as needed */
+    margin: 8px;
+    background-color: rgb(243, 230, 230);
+    box-shadow: 2px 2px 2px 2px rgba(202, 196, 196, 0.8);
+    height:30vh;
+    width:30%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-heading{
+    color:rgb(65, 64, 64);
+    font-size: 20px;
+  }
+  .card-description{
+    color:rgb(150, 131, 131);
+    font-size: 15px;
+  }

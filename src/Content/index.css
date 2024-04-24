@@ -1,9 +1,28 @@
-.container-card {
+.list-all-btn{
     display: flex;
-    margin:5%; /* Create 5% gap between header and card */
-    width: 500px; /* Fixed width */
-    height: 200px; /* Adjust height as needed */
-    background-color: #fff; /* White background */
-    border: 1px solid #ccc;
-  }
-  
+    justify-content: center;
+    align-items: center;
+    margin:1%;
+}
+.btn{
+    color: #ffffff;
+    background-color: rgb(5, 5, 66);
+    height:5vh;
+    width:7vw;
+    border-radius: 10px;
+    border-width: 0px;
+    text-align: center;
+    font-size: 12px;
+    font-family: roboto;
+    position: relative;
+}
+.carousel-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

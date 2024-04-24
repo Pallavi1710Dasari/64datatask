@@ -2,10 +2,42 @@
 .container{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    width:100vw;
 }
-.container2{
+.content-release-card-container{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    position: relative;
+}
+.sidebar-closed{
+    width: 7vw;
+    height: 100vh;
+    position: relative;
+}
+.sidebar-opened{
+    width: 20vw;
+    height: 100vh;
+    position: relative;
+}
+.body-container-without-full-sidebar{
+    width: 93vw;
+    position: relative;
+}
+.body-container-with-full-sidebar{
+    width: 80vw;
+    position: relative;
+}
+.header-section{
+    position: relative;
+}
+.content-section{
+    width: 70vw;
+    
+    position: relative;
+}
+.release-section{
+    width: 30vw;
+    
+    position: relative;
 }

@@ -8,24 +8,50 @@ import { FaHeadphones } from "react-icons/fa6";
 import { IoIosSettings } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
 
-const SideBar=()=>{
+const SideBar=(props)=>{
+    
+
+    const {onChangesidebar, expanded=false}=props
+
+    const sidebarToggle=()=>{
+        onChangesidebar();
+    }
+
     return(
-       <div className="background">
+
+       <div className="sidebar-background">
         <div className="card-icons">
             <div className="profile-success-container">
                 <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" alt="profile" className="profile-img" />
             </div>
             <div className="icons">
-                <CiSearch className="nav-item-mobile-link"/> 
-                <RiComputerLine className="nav-item-mobile-link"/>
-                <FaRegQuestionCircle className="nav-item-mobile-link"/>
-                <FaCalendarDay className="nav-item-mobile-link"/>
-                <LuBuilding2 className="nav-item-mobile-link"/>
-                <AiFillDollarCircle className="nav-item-mobile-link"/>
-                <FaHeadphones className="nav-item-mobile-link"/>
+                <div className="sidebar-item">
+                    <CiSearch className="nav-item-mobile-link"/> 
+                    {expanded && <p className="sidebar-description">Search Icon</p>}
+                </div>
+                <div className="sidebar-item">
+                    <RiComputerLine className="nav-item-mobile-link"/>
+                    {expanded && <p className="sidebar-description">Search Icon</p>}
+                </div>
+                <div className="sidebar-item">
+                    <FaRegQuestionCircle className="nav-item-mobile-link"/>
+                    {expanded && <p className="sidebar-description">Search Icon</p>}
+                </div>
+                <div className="sidebar-item">
+                    <FaCalendarDay className="nav-item-mobile-link"/>
+                </div>
+                <div className="sidebar-item">
+                    <LuBuilding2 className="nav-item-mobile-link"/>
+                </div>
+                <div className="sidebar-item">
+                    <AiFillDollarCircle className="nav-item-mobile-link"/>
+                </div>
+                <div className="sidebar-item">
+                    <FaHeadphones className="nav-item-mobile-link"/>
+                </div>
             </div>
          </div>
-            <IoIosSettings className="nav-item-mobile-link"/>
+            <IoIosSettings className="nav-item-mobile-link" onClick={sidebarToggle}/>
       </div> 
     )
 }

@@ -1,0 +1,25 @@
+[{
+    "id":"1",
+    "date":"February 12, 2024",
+    "heading":"Industrial Production",
+    "description":"Index of Industrial Production (IIP) grew by 3.8% YoY in December." 
+},
+{
+    "id": "2",
+    "date": "March 5, 2024",
+    "heading": "Product Launch",
+    "description": "Company XYZ unveils its latest product line featuring cutting-edge technology."
+  },
+  {
+    "id": "3",
+    "date": "April 20, 2024",
+    "heading": "Earnings Report",
+    "description": "Company ABC reports record-breaking quarterly earnings, exceeding analyst expectations."
+  },
+  {
+    "id": "4",
+    "date": "May 15, 2024",
+    "heading": "New Feature Release",
+    "description": "Application XYZ introduces a new feature that enhances user experience and productivity."
+  }
+]
