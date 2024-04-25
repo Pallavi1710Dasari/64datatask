@@ -35,10 +35,11 @@
   .sidebar-item{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
   }
   .sidebar-description{
     font-size: 20px;
-    font-family: roboto;
-    color:#302b2b
+    font-family: "roboto";
+    color:#251b1b;
+    margin:10px;
   }

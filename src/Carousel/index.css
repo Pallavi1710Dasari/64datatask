@@ -30,5 +30,10 @@
     color:rgb(150, 131, 131);
     font-size: 15px;
   }
+  .carouselImageClassName{
+    background-size: cover;
+    height:14vh;
+    width:14vw;
+  }
 
  

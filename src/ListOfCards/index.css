@@ -30,3 +30,8 @@
     color:rgb(150, 131, 131);
     font-size: 15px;
   }
+  .imageClassName{
+    background-size: cover;
+    height:14vh;
+    width:14vw;
+  }

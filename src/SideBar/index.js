@@ -11,7 +11,8 @@ import { CiSearch } from "react-icons/ci";
 const SideBar=(props)=>{
     
 
-    const {onChangesidebar, expanded=false}=props
+    const {onChangesidebar, isExpanded}=props
+    console.log(isExpanded)
 
     const sidebarToggle=()=>{
         onChangesidebar();
@@ -19,7 +20,7 @@ const SideBar=(props)=>{
 
     return(
 
-       <div className="sidebar-background">
+       <div className="sidebar-background" onClick={sidebarToggle}>
         <div className="card-icons">
             <div className="profile-success-container">
                 <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" alt="profile" className="profile-img" />
@@ -27,31 +28,38 @@ const SideBar=(props)=>{
             <div className="icons">
                 <div className="sidebar-item">
                     <CiSearch className="nav-item-mobile-link"/> 
-                    {expanded && <p className="sidebar-description">Search Icon</p>}
+                    {isExpanded && <p className="sidebar-description">Search</p>}
                 </div>
                 <div className="sidebar-item">
                     <RiComputerLine className="nav-item-mobile-link"/>
-                    {expanded && <p className="sidebar-description">Search Icon</p>}
+                    {isExpanded && <p className="sidebar-description">Home</p>}
                 </div>
                 <div className="sidebar-item">
                     <FaRegQuestionCircle className="nav-item-mobile-link"/>
-                    {expanded && <p className="sidebar-description">Search Icon</p>}
+                    {isExpanded && <p className="sidebar-description">Help</p>}
                 </div>
                 <div className="sidebar-item">
                     <FaCalendarDay className="nav-item-mobile-link"/>
+                    {isExpanded && <p className="sidebar-description">Calender</p>}
                 </div>
                 <div className="sidebar-item">
                     <LuBuilding2 className="nav-item-mobile-link"/>
+                    {isExpanded && <p className="sidebar-description">Recent Releases</p>}
                 </div>
                 <div className="sidebar-item">
                     <AiFillDollarCircle className="nav-item-mobile-link"/>
+                    {isExpanded && <p className="sidebar-description">Money</p>}
                 </div>
                 <div className="sidebar-item">
                     <FaHeadphones className="nav-item-mobile-link"/>
+                    {isExpanded && <p className="sidebar-description">Music</p>}
                 </div>
             </div>
          </div>
-            <IoIosSettings className="nav-item-mobile-link" onClick={sidebarToggle}/>
+         <div className="sidebar-item">
+            <IoIosSettings className="nav-item-mobile-link" />
+            {isExpanded && <p className="sidebar-description">Settings</p>}
+        </div> 
       </div> 
     )
 }

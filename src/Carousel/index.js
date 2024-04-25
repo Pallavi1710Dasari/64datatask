@@ -47,7 +47,7 @@ const Carousel=()=>{
             <Slider {...settings}>
             {BussinessList.map(each=>(
                 <div className='slide' >
-                    <img src={each.imageSrc}/>
+                    <img className='carouselImageClassName' alt="Carousel Image" src={each.imageSrc}/>
                     <h1 className='slide-heading'>{each.heading}</h1>
                     <p className='slide-description'>{each.description}</p>
                 </div> 
